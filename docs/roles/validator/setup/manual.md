@@ -17,9 +17,9 @@ import TabItem from '@theme/TabItem';
 mkdir binaries && cd binaries
 
 # get axelard, tofnd binaries and rename
-wget https://github.com/axelarnetwork/axelar-core/releases/download/v0.13.6/axelard-linux-amd64-v0.13.6
+wget https://github.com/axelarnetwork/axelar-core/releases/download/v0.16.2/axelard-linux-amd64-v0.16.2
 wget https://github.com/axelarnetwork/tofnd/releases/download/v0.9.1/tofnd-linux-amd64-v0.9.1
-mv axelard-linux-amd64-v0.13.6 axelard
+mv axelard-linux-amd64-v0.16.2 axelard
 mv tofnd-linux-amd64-v0.9.1 tofnd
 
 # make binaries executable
